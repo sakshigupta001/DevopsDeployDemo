@@ -1,7 +1,7 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine
+FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine 
 
 WORKDIR /src
 
-COPY . .
+COPY /src/WebApp/bin/Release/net7.0/publish .
 
-CMD ["dotnet run"]
+ENTRYPOINT ["dotnet", "WebApp.dll"]
