@@ -4,4 +4,4 @@ WORKDIR /src
 
 COPY . .
 
-ENTRYPOINT ["dotnet run"]
+CMD ["dotnet run"]
