@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <!-- Heading -->
+    <h2>WELCOME TO DEVOPS</h2>
+    <br><br>
+
+    <!-- Article -->
+    <p>DevOps aligns development and operations to optimize quality and delivery.</p>
+    <p>Read more...</p>
+    <br><br>
+
+
+    <h5>What Is DevOps?</h5>
+    <hr color="blue" width="200">
+    <p>
+        DevOps is a set of practices, tools, and a cultural philosophy that automate and
+        integrate the processes between software development and IT teams. It emphasizes
+        team empowerment, cross-team communication and collaboration, and technology
+        automation. <br><br>
+
+        The DevOps movement began around 2007 when the software development and IT
+        operations communities raised concerns about the traditional software development
+        model, where developers who wrote code worked apart from operations who deployed
+        and supported the code. The term DevOps, a combination of the words development
+        and operations, reflects the process of integrating these disciplines into one,
+        continuous process.
+    </p>
+
+    <br><br>
+    <h5>The DevOps lifecycle
+    </h5>
+    <hr color="blue" width="200">
+    <p>
+        Because of the continuous nature of DevOps, practitioners use the infinity loop to
+        show how the phases of the DevOps lifecycle relate to each other. Despite appearing
+        to flow sequentially, the loop symbolizes the need for constant collaboration and
+        iterative improvement throughout the entire lifecycle. <br><br>
+
+        The DevOps lifecycle consists of eight phases representing the processes,
+        capabilities, and tools needed for development and operations. Throughout each
+        phase, teams collaborate and communicate to maintain alignment, velocity, and
+        quality.
+    </p>
+    <br><br>
+
+
+
+    <h5>DevOps practices
+    </h5>
+    <hr color="blue" width="200">
+    <p>
+        Continuous integration
+        <br>
+        Continuous integration is the practice of automating the integration of code
+        changes into a software project. It allows developers to frequently merge code
+        changes into a central repository where builds and tests are executed. This helps
+        DevOps teams address bugs quicker, improve software quality, and reduce the time
+        it takes to validate and release new software updates.<br><br>
+
+        Continuous delivery
+        <br>
+        Continuous delivery expands upon continuous integration by automatically deploying code changes to a
+        testing/production environment. It follows a continuous delivery pipeline, where automated builds, tests, and
+        deployments are orchestrated as one release workflow.
+        <br><br>
+
+        Situational awareness<br>
+        It is vital for every member of the organization to have access to the data they need to do their job as
+        effectively and quickly as possible. Team members need to be alerted of failures in the deployment pipeline —
+        whether systemic or due to failed tests — and receive timely updates on the health and performance of
+        applications running in production. Metrics, logs, traces, monitoring, and alerts are all essential sources of
+        feedback teams need to inform their work.
+        <br><br>
+
+        Automation<br>
+        Automation is one of the most important DevOps practices because it enables teams to move much more quickly
+        through the process of developing and deploying high-quality software. With automation the simple act of pushing
+        code changes to a source code repository can trigger a build, test, and deployment process that significantly
+        reduces the time these steps take.
+        <br><br>
+
+        Infrastructure as Code<br>
+        Whether your organization has an on-premise data center or is completely in the cloud, having the ability to
+        quickly and consistently provision, configure, and manage infrastructure is key to successful DevOps adoption.
+        Infrastructure as Code (IaC) goes beyond simply scripting infrastructure configuration to treating your
+        infrastructure definitions as actual code: using source control, code reviews, tests, etc.
+        <br><br>
+
+        Microservices<br>
+        Microservices is an architectural technique where an application is built as a collection of smaller services
+        that can be deployed and operated independently from each other. Each service has its own processes and
+        communicates with other services through an interface. This separation of concerns and decoupled independent
+        function allows for DevOps practices like continuous delivery and continuous integration.
+        <br><br>
+
+        Monitoring<br>
+        DevOps teams monitor the entire development lifecycle — from planning, development, integration and testing,
+        deployment, and operations. This allows teams to respond to any degradation in the customer experience, quickly
+        and automatically. More importantly, it allows teams to “shift left” to earlier stages in development and
+        minimize broken production changes.
+    </p>
+
+
+
+    <br><br>
+    <hr color="blue" width="200">
+    <hr color="blue" width="200">
+
+    <!-- Footer -->
+    <p>Learn About</p>
+
+    <a asp-controller="TechStack" asp-action="Automation">DevOps automation tutorials</a>
+    <br>
+    <a asp-controller="TechStack" asp-action="Testing">DevOps testing tutorials</a>
+    <br>
+    <a asp-controller="TechStack" asp-action="Security">DevOps security tutorials</a>
+
+
+</div>
